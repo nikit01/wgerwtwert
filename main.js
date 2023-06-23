@@ -15,7 +15,7 @@ document.querySelector('.btn--prev').addEventListener('click', function(){
     slaiderLine.style.left = -offset + 'px';
 });
 // 
-$('.slaider--line--media').slick()
+$('.slaider--line--media').slick();
 // 
 $('.collection--case--media').slick({
     dots: true,
